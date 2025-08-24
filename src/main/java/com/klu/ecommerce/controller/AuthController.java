@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/auth")
 @CrossOrigin(origins = "http://localhost:8080/ecommerce")
+@RequestMapping("/auth")
 public class AuthController {
     private final UserService userService;
 
